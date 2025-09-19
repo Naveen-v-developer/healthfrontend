@@ -29,7 +29,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="footer">
         <p>
-          Designed & Developed by <span className="highlight">D.Durga Sumanth</span> and <span className="highlight">S.Naziya</span>
+          Designed & Developed by Team<span className="highlight">Critical Thinkers</span>
         </p>
       </footer>
     </div>
