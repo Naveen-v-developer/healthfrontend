@@ -1,0 +1,38 @@
+.prediction-box {
+  background-color: #121212;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00ffff55;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 500px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.prediction-box h3 {
+  color: #00ffff;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  text-shadow: 0 0 6px #00ffff;
+}
+
+.prediction-score {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.prediction-error {
+  color: #ff4d4d;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #ff4d4d;
+}
+
+.prediction-loading {
+  color: #cccccc;
+  font-style: italic;
+}

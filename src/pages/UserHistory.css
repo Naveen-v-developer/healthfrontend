@@ -1,0 +1,20 @@
+.history-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.history-container h2 {
+  margin-bottom: 20px;
+  color: #264653;
+}
+
+.history-container p {
+  color: #888;
+  font-size: 16px;
+}

@@ -1,0 +1,82 @@
+.vitals-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #121212;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00ffff55;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.vitals-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.vitals-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.vitals-form label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 500;
+  color: #ffffffcc;
+}
+
+.vitals-form input {
+  padding: 10px 14px;
+  margin-top: 5px;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.vitals-form input:focus {
+  border-color: #00ffcc;
+  outline: none;
+  box-shadow: 0 0 8px #00ffcc;
+}
+
+.vitals-form button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #00ffff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.vitals-form button:hover {
+  background: #00ccff;
+  box-shadow: 0 0 10px #00ccff;
+}
+
+.vitals-message {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #ffcc00;
+  text-shadow: 0 0 4px #ffcc00;
+}
+
+.vitals-score {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #00ff99;
+  font-weight: bold;
+  text-shadow: 0 0 6px #00ff99;
+}

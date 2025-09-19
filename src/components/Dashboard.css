@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+body {
+  background-color: #0f0f0f;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00f5d4;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.dashboard-container h2 {
+  color: #00f5d4;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dashboard-subtitle {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-bottom: 30px;
+}
+
+.dashboard-grid {
+  margin-bottom: 40px;
+}
+
+/* Leaderboard Button */
+.leaderboard-link {
+  margin-top: 30px;
+}
+
+.leaderboard-link button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #00f5d4;
+  background: transparent;
+  border: 2px solid #00f5d4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leaderboard-link button:hover {
+  background-color: #00f5d4;
+  color: #000;
+  box-shadow: 0 0 10px #00f5d4, 0 0 20px #00f5d4;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

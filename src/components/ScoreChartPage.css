@@ -1,0 +1,23 @@
+/* src/pages/ScoreChartPage.css */
+
+.score-chart-container {
+  background-color: #f3f7ff;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.score-chart-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+.loading-text {
+  color: #666;
+  font-style: italic;
+}

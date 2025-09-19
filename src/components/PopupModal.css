@@ -1,0 +1,95 @@
+/* Dark overlay with blur effect */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  backdrop-filter: blur(5px);
+}
+
+/* Base modal styling */
+.modal-box {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  color: #ffffff;
+  animation: neonFadeIn 0.4s ease-out;
+  text-align: center;
+}
+
+/* Close button */
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  color: #4317f1;
+}
+
+/* Close button hover effect */
+.modal-close:hover {
+  transform: scale(1.2);
+}
+
+/* Modal text content */
+.modal-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0f7fa;
+}
+
+/* Score container */
+.daily-score {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Neon glow styles by score */
+.score-high {
+  border: 2px solid #00ff80;
+  box-shadow: 0 0 15px #00ff80, 0 0 30px #00ff80, 0 0 45px #00ff80;
+  color: #00ff80;
+}
+
+.score-medium {
+  border: 2px solid #ffae00;
+  box-shadow: 0 0 15px #ffae00, 0 0 30px #ffae00, 0 0 45px #ffae00;
+  color: #ffae00;
+}
+
+.score-low {
+  border: 2px solid #ff0033;
+  box-shadow: 0 0 15px #ff0033, 0 0 30px #ff0033, 0 0 45px #ff0033;
+  color: #ff0033;
+}
+
+/* Neon fade-in animation */
+@keyframes neonFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
