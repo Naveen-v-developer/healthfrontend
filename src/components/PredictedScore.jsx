@@ -19,7 +19,7 @@ const PredictedScore = ({ userId }) => {
     const trimmedId = userId.trim();
 
     axios
-      .get(`https://backdml.onrender.com/predict-score?userId=${trimmedId}`)
+      .get(`https://ml-1-wp2i.onrender.com/predict-score?userId=${trimmedId}`)
       .then(res => {
         console.log('Prediction response:', res.data);
 
