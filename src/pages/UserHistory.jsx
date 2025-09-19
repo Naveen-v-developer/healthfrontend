@@ -13,11 +13,11 @@ const UserHistory = () => {
     const fetchData = async () => {
       try {
         // Get score history for the user
-        const historyRes = await axios.get(`http://localhost:5002/api/scores/history/${userId}`);
+        const historyRes = await axios.get(`https://health-hx5a.onrender.com/api/scores/history/${userId}`);
         setScores(historyRes.data);
 
         // Get user details to fetch the name
-        const userRes = await axios.get(`http://localhost:5002/api/auth/users`);
+        const userRes = await axios.get(`https://health-hx5a.onrender.com/api/auth/users`);
         const user = userRes.data.find(u => u._id === userId);
         setUserName(user?.name || 'User');
       } catch (err) {
