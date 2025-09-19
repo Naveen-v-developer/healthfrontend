@@ -24,7 +24,7 @@ const Leaderboard = () => {
 
   useEffect(() => {
     axios
-      .get('https://health-hx5a.onrender.com/api/auth/users')
+      .get('https://health-bxi5.onrender.com/api/auth/users')
       .then((res) => setUsers(res.data))
       .catch((err) => console.error('Failed to load users:', err));
   }, []);
@@ -35,7 +35,7 @@ const Leaderboard = () => {
 
       for (const user of users) {
         try {
-          const res = await axios.get(`https://health-hx5a.onrender.com/api/scores/history/${user._id}`);
+          const res = await axios.get(`https://health-bxi5.onrender.com/api/scores/history/${user._id}`);
           const scores = res.data;
 
           const sevenDaysAgo = new Date();
