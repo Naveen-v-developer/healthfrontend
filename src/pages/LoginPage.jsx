@@ -18,7 +18,7 @@ export default function Login() {
     setMessage('');
 
     try {
-      const res = await axios.post('https://health-hx5a.onrender.com/api/auth/login', formData);
+      const res = await axios.post('https://health-bxi5.onrender.com/api/auth/login', formData);
       const { token, user } = res.data;
 
       localStorage.setItem('token', token);
