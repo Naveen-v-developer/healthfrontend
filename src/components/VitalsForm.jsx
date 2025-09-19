@@ -96,7 +96,7 @@ const VitalsForm = ({ onTipUpdate }) => {
         date,
       };
 
-      await axios.post('https://health-hx5a.onrender.com/api/score/add', payload);
+      await axios.post('https://health-bxi5.onrender.com/api/score/add', payload);
       setMessage('Score calculated and saved successfully!');
     } catch (err) {
       console.error('Error during score submission:', err);
